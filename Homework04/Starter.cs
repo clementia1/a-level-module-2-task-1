@@ -15,6 +15,7 @@ namespace Homework04
             {
                 var randomNumber = new Random().Next(0, 3);
                 var resultObject = new Result();
+
                 switch (randomNumber)
                 {
                     case 0:
